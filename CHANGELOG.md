@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 - 2026-10-19
+
+- "See it work": a 40-second demo recorded from a real MCP run (request, browser sign-in, page built and published, test signup, lead in the CRM).
+
 ## 1.2.0 - 2026-10-19
 
 - README leads with the outcome: get more customers with the AI you already use. What you get today sits next to the free promise.

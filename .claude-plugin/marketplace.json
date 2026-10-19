@@ -12,7 +12,7 @@
       "name": "business-stack",
       "source": "./",
       "description": "A hosted business stack for your agent: websites, booking pages, CRM, payments, email, courses, webinars and automations. Powered by AXL.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "AXL",
         "url": "https://axl.tech"

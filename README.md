@@ -22,12 +22,21 @@
 Works with Claude Code, Claude, Codex, ChatGPT, Cursor, VS Code, Gemini CLI, Windsurf, OpenCode, Zed, Cline and any client that speaks MCP.
 
 <p align="center">
+  <a href="#see-it-work">See it work</a> ·
   <a href="#install">Install</a> ·
   <a href="#your-first-run">First run</a> ·
   <a href="#one-customer-history">One customer history</a> ·
   <a href="#what-else-your-agent-can-launch">What it launches</a> ·
   <a href="#faq">FAQ</a>
 </p>
+
+## See it work
+
+<p align="center">
+  <img src="assets/demo.gif" alt="A real run: the agent gets one request, connects AXL with a browser sign-in, builds and publishes a landing page with a signup form through MCP, a visitor signs up, and the lead appears in the CRM" width="800">
+</p>
+
+<p align="center"><sub>A real MCP run on an AXL demo account, about 40 seconds: one request, a published page, a test signup, the lead in the CRM.</sub></p>
 
 ## Install
 
