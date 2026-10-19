@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0 - 2026-10-19
+
+- Free plan described as the plan new accounts start on, without the trial caveat.
+- New first FAQ answer "Is it free?": what is free, what is limited on Free (with a link to axl.tech/pricing for the numbers), what is paid from balance; "Do I need an AXL account?" now says the agent builds with its own model.
+
 ## 1.3.0 - 2026-10-19
 
 - "See it work": a 40-second demo recorded from a real MCP run (request, browser sign-in, page built and published, test signup, lead in the CRM).

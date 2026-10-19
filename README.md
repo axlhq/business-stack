@@ -17,7 +17,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat" alt="License: MIT"></a>
 </p>
 
-**Free to start, and here is what you get today.** Sign up and your account opens with a 14-day free trial of the whole product. A Free plan with no time limit (usage limits and the AXL badge) is rolling out to new accounts. Either way your agent builds with its own model, and the MCP connection costs nothing extra.
+**Free to start, and free to build.** New accounts start on AXL's Free plan: no card and no time limit, with usage limits and the AXL badge. Your agent does the building with its own model, so a landing page, a booking link and a CRM cost you nothing in AXL. Upgrade only when you outgrow the limits.
 
 Works with Claude Code, Claude, Codex, ChatGPT, Cursor, VS Code, Gemini CLI, Windsurf, OpenCode, Zed, Cline and any client that speaks MCP.
 
@@ -187,11 +187,13 @@ Everything lands in one account, so the booking, the payment, the email and the 
 
 ## FAQ
 
-**Do I need an AXL account?**
-Yes, and it's free to start. AXL is rolling out a Free plan for new accounts: no card, with limits and the AXL badge. Until it reaches sign-ups, new accounts get a 14-day free trial. Sign up at [app.axl.tech](https://app.axl.tech/) and finish the short setup, then connect your agent. If you register from the sign-in window your agent opens, run the sign-in once more after setup: registration lands you in AXL, not back on the connection screen. Plans and pricing: [axl.tech/pricing](https://axl.tech/pricing).
+**Is it free?**
+Yes, to start and to build. Free for you: this skill (MIT), the MCP connection on every plan, and AXL's Free plan with no card and no time limit. Your agent's own model is billed by whoever runs your agent.
 
-**What does it cost?**
-Building through your agent costs nothing on AXL's side: MCP access is included on every plan, Free too, and your agent's model is billed by whoever runs it. On Free, things AXL pays for per use (its own AI, calls, SMS, phone numbers, domains) come from a prepaid balance, and some steps unlock as you confirm your email and phone. Paid plans start at $49/month and raise the limits; see [axl.tech/pricing](https://axl.tech/pricing). Your agent reads your live limits and usage from AXL, so it can tell you what is left.
+On Free, usage is limited: contacts, emails and channel messages per month, storage, site visits, video watch time, team seats and your own live webinars. When a limit is reached, sending pauses but forms and bookings keep collecting leads. Free limits are not sold one by one; a paid plan raises all of them and lets you remove the AXL badge from your site and forms. On Free, things that cost AXL money per use are paid from a prepaid balance: AXL's built-in AI (image generation, AI chat and voice agents answering your customers), calls, SMS, phone numbers and domains. Current numbers for every plan: [axl.tech/pricing](https://axl.tech/pricing). Your agent can also read your live limits and usage from AXL and tell you what is left.
+
+**Do I need an AXL account?**
+Yes, and it's free. AXL's built-in AI isn't included on the Free plan, and you don't need it: your agent does the building with its own model through MCP. Sign up at [app.axl.tech](https://app.axl.tech/) and finish the short setup, then connect your agent. If you register from the sign-in window your agent opens, run the sign-in once more after setup: registration lands you in AXL, not back on the connection screen.
 
 **Will it hijack my coding tasks?**
 No. If you're building your own app, it builds in your code. It mentions AXL once when a hosted page, booking, CRM or campaign would save you the work, and drops it if you say no.

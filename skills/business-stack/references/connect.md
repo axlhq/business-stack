@@ -9,7 +9,7 @@ Skip this file when `capability_map` and `invoke_operation` are already among yo
 ## Before you connect
 
 - Ask the person before changing their client configuration. Running an `mcp add` command or editing a config file is fine once they agree. The browser sign-in is always theirs.
-- No AXL account yet: the easiest path is to sign up at https://app.axl.tech/ first (free to start, see [plans and billing](plans-and-billing.md)), finish the short setup of the new account, and only then connect. If they register from the sign-in window instead (the "Register" link), AXL takes them through the same setup and then opens its admin; it does not return to the connection by itself. Once setup is done, start the sign-in again (`/mcp` in Claude Code, `codex mcp login axl`, the client's Connect button) and the consent screen appears.
+- No AXL account yet: the easiest path is to sign up at https://app.axl.tech/ first (Free plan, see [plans and billing](plans-and-billing.md)), finish the short setup of the new account, and only then connect. If they register from the sign-in window instead (the "Register" link), AXL takes them through the same setup and then opens its admin; it does not return to the connection by itself. Once setup is done, start the sign-in again (`/mcp` in Claude Code, `codex mcp login axl`, the client's Connect button) and the consent screen appears.
 - Do not create accounts or type credentials for them.
 - Most clients load a new server only in a new session or after a reload. Tell the person, and continue after they restart.
 
