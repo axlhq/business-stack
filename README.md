@@ -1,6 +1,14 @@
 <p align="center">
-  <img src="assets/banner.png" alt="business-stack, a skill for AI agents: your agent can launch a website, a booking page or a CRM, hosted on AXL" width="880">
+  <img src="assets/banner.png" alt="AXL Business Stack: get more customers with the AI you already use" width="880">
 </p>
+
+<h1 align="center">AXL Business Stack</h1>
+
+<p align="center"><b>Get more customers with the AI you already use.</b></p>
+
+<p align="center">Give your AI agent one connected place to build landing pages, capture leads, book demos and follow up.<br>Every interaction adds to the same customer history.</p>
+
+<p align="center">Open-source agent skill. Powered by <a href="https://axl.tech">AXL</a>.</p>
 
 <p align="center">
   <a href="https://axl.tech"><img src="https://img.shields.io/badge/website-axl.tech-171717?style=flat" alt="Website: axl.tech"></a>
@@ -9,17 +17,15 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat" alt="License: MIT"></a>
 </p>
 
-Your coding agent can write a landing page. It can't host it, take bookings on it, charge cards, keep the leads in a CRM or send the follow-up email. **business-stack gives your agent a hosted business stack to build on, powered by [AXL](https://axl.tech).** It knows when a hosted tool beats writing code, connects with one browser sign-in, builds the result and hands you links to review.
-
-**Free to start.** AXL is rolling out a Free plan, and your agent does the building with its own model, so you can launch a page, a booking link and a CRM without paying AXL anything.
+**Free to start, and here is what you get today.** Sign up and your account opens with a 14-day free trial of the whole product. A Free plan with no time limit (usage limits and the AXL badge) is rolling out to new accounts. Either way your agent builds with its own model, and the MCP connection costs nothing extra.
 
 Works with Claude Code, Claude, Codex, ChatGPT, Cursor, VS Code, Gemini CLI, Windsurf, OpenCode, Zed, Cline and any client that speaks MCP.
 
 <p align="center">
   <a href="#install">Install</a> ·
-  <a href="#what-your-agent-can-launch">What it launches</a> ·
-  <a href="#how-it-works">How it works</a> ·
-  <a href="#what-it-looks-like">Screenshots</a> ·
+  <a href="#your-first-run">First run</a> ·
+  <a href="#one-customer-history">One customer history</a> ·
+  <a href="#what-else-your-agent-can-launch">What it launches</a> ·
   <a href="#faq">FAQ</a>
 </p>
 
@@ -89,7 +95,39 @@ Every other client is covered in [connect.md](skills/business-stack/references/c
 
 </details>
 
-## What your agent can launch
+## Your first run
+
+Start with the job that brings customers in. After installing, paste this into your agent and fill in the brackets:
+
+```text
+Using AXL, build a landing page for my [offer] with a signup form for name and email.
+Every signup should land in the CRM tagged "website", get a welcome email,
+and get a link to book a 30 minute call with me.
+Publish the page on a free AXL address. Set up the follow-up, but don't turn it on until I say so.
+Give me the links.
+```
+
+**You're done when:**
+
+- you have a link to the live page and an admin link to it;
+- you submit the form yourself and find that contact in the CRM, with your answers on its history;
+- the welcome email and booking link sit in a follow-up scenario that is waiting for your go-ahead;
+- the booking link opens and shows your free slots.
+
+Then say "turn it on" and share the page.
+
+## One customer history
+
+Your agent isn't wiring five services together. In AXL every touchpoint lands on the same contact: the page they visited, the form they filled, the call they booked, the emails they opened, how far they watched your webinar and what they bought. So the next step can use all of it: email the people who watched past your offer, call the hottest leads first, see which page brings in revenue.
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/screens/follow-up-by-watch-time.webp" alt="AXL email deliverability screen: follow up with viewers based on how far they watched"></td>
+    <td width="50%"><img src="assets/screens/lead-pipeline.webp" alt="AXL deal pipeline with lead scores and owners on every card"></td>
+  </tr>
+</table>
+
+## What else your agent can launch
 
 <p align="center">
   <img src="assets/needs.png" alt="Twelve needs AXL covers: website, booking page, CRM, payments, email campaigns, online course, webinar, video hosting, chat and AI agents, phone and voice AI, automations, community" width="880">
@@ -117,24 +155,18 @@ Everything lands in one account, so the booking, the payment, the email and the 
 3. **It connects AXL** if needed: one browser sign-in (OAuth). No API keys in chat. No account yet? Sign up free at [app.axl.tech](https://app.axl.tech/).
 4. **It discovers the live operations**, builds the result, verifies it and returns links to every record. Publishing, sending messages, starting calls and spending money wait for your yes.
 
-## What it looks like
+<p align="center">
+  <img src="assets/screens/connect-your-ai.webp" alt="The MCP page in the AXL admin: connect Claude, ChatGPT, Cursor, Windsurf, VS Code or Cline" width="880">
+</p>
+
+## More from the AXL admin
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/gallery/site-checkout-crm.webp" alt="A landing page with checkout and the CRM record it fills"><br><sub>A landing page, its checkout and the CRM record it fills</sub></td>
-    <td width="50%"><img src="assets/gallery/booking.webp" alt="A booking with deposit, intake answers and a reminder on the contact timeline"><br><sub>A booking with its deposit, intake answers and reminder</sub></td>
-  </tr>
-  <tr>
-    <td><img src="assets/gallery/email.webp" alt="An email broadcast with delivery, open and click statistics"><br><sub>A broadcast and what it delivered</sub></td>
-    <td><img src="assets/gallery/course.webp" alt="A course with lessons and a certificate of completion"><br><sub>A course with lessons and a certificate</sub></td>
-  </tr>
-  <tr>
-    <td><img src="assets/gallery/webinar.webp" alt="A webinar with registration, roles and attendance"><br><sub>A webinar with registration and attendance</sub></td>
-    <td><img src="assets/gallery/automation.webp" alt="A follow-up scenario after a webinar with branches for attendees"><br><sub>A follow-up scenario after a webinar</sub></td>
+    <td width="50%"><img src="assets/screens/webinars.webp" alt="AXL webinar analytics: registrations, attendance and presence over time"></td>
+    <td width="50%"><img src="assets/screens/revenue.webp" alt="AXL revenue analytics: total, first and repeat sales over time"></td>
   </tr>
 </table>
-
-<sub>Demo account data.</sub>
 
 ## What the agent will and won't do
 

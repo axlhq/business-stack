@@ -10,7 +10,7 @@
   .left { display: flex; flex-direction: column; }
   .eyebrow { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 13px; letter-spacing: 0.02em; }
   .eyebrow .sep { width: 1px; height: 18px; background: var(--line); }
-  h1 { margin-top: 26px; font-size: 31px; line-height: 1.1; }
+  h1 { margin-top: 26px; font-size: 34px; line-height: 1.08; }
   .sub { margin: 14px 0 0; font-size: 14px; line-height: 1.5; color: var(--muted); max-width: 400px; }
     .powered { display: inline-flex; align-items: center; gap: 7px; }
   .powered img { height: 19px; transform: translateY(1px); }
@@ -56,24 +56,24 @@
 <body>
 <main class="frame">
   <section class="left">
-    <div class="eyebrow"><span class="name mono">business-stack</span><span class="sep"></span><span class="powered">Skill for AI agents, powered by <img src="./logo-axl.svg" alt="AXL"></span></div>
-    <h1>Need a website, a booking page or a CRM?<br><span class="blue">Your agent can launch it, live.</span></h1>
-    <p class="sub">One skill gives your agent a hosted business stack: pages, booking, payments, CRM and email in one account.<br><span class="free">Free to start.</span></p>
+    <div class="eyebrow"><span class="name mono">business-stack</span><span class="sep"></span><span class="powered">Open-source agent skill, powered by <img src="./logo-axl.svg" alt="AXL"></span></div>
+    <h1><span class="blue">Get more customers</span><br>with the AI you already use.</h1>
+    <p class="sub">Give your AI agent one connected place to build landing pages, capture leads, book demos and follow up. Every interaction adds to the same customer history.<br><span class="free">Free to start.</span></p>
     <div class="cmd mono"><span class="p">$</span>npx skills add axlhq/business-stack</div>
   </section>
   <section class="chat" aria-label="Example conversation">
     <div class="bar"><i></i><i></i><i></i><span>Your agent</span></div>
-    <div class="you">I need a page where clients book a 30 minute intro call.</div>
+    <div class="you">Get me leads for my workshop: a landing page, a signup form and a follow-up.</div>
     <div class="agent">
       <span class="tag">BUSINESS-STACK</span>
-      <div>A hosted booking page fits. Connected AXL and set it up:</div>
+      <div>Built it in your AXL account:</div>
       <ul>
-        <li>Booking page "Intro call", 30 min</li>
-        <li>Your working hours and time zone</li>
-        <li>Reminder before each call</li>
-        <li>New bookings land in the CRM</li>
+        <li>Landing page with a signup form</li>
+        <li>Every signup lands in the CRM</li>
+        <li>Welcome email with a booking link</li>
+        <li>Leads sorted by stage, ready to call</li>
       </ul>
-      <div class="links"><span class="link">Open booking page ↗</span><span class="link">Review in AXL ↗</span></div>
+      <div class="links"><span class="link">Open the page ↗</span><span class="link">See leads in AXL ↗</span></div>
     </div>
   </section>
 </main>

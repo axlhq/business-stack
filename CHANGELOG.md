@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 - 2026-10-19
+
+- README leads with the outcome: get more customers with the AI you already use. What you get today sits next to the free promise.
+- New "Your first run" prompt with a clear definition of done, and a "One customer history" section.
+- Real AXL admin screens replace the illustrated gallery; the banner shows a lead-generation run.
+
 ## 1.1.0 - 2026-10-19
 
 - Free plan guidance: a new `plans-and-billing` reference (limits from the live billing recipe, what is paid from balance, step-by-step unlocks, reviewed mailings, the AXL badge, inactive-account removal) and "free to start" wording across the skill and README.
