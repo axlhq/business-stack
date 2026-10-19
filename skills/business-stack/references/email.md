@@ -25,6 +25,7 @@ Discover live. Starting recipes today: `list_email_profiles`, `check_email_conte
 - Use "send now" only when the person said so. Otherwise schedule it and tell them when it goes out and how to stop it.
 - Count the audience with the same filter you will send to, and report the number before the send.
 - Run the content check before scheduling.
+- On Free, a mass email waits for AXL's review before it goes out, and mailings need a phone verified by SMS first. See [plans and billing](plans-and-billing.md).
 - An own sending domain needs its DNS records added by the person, then verification, then a sender profile.
 - Sequences and automated follow-ups are scenarios. See [automations](automations.md).
 

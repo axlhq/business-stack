@@ -19,7 +19,7 @@ Discover live. Starting recipes today: `list_chat_channels`, `connect_chat_chann
 - A new AI agent is created disabled. It answers only when it is enabled and its channel list includes a connected channel. An empty list means it answers nowhere.
 - Test the agent before enabling it on a live channel, and ask before enabling.
 - Meta and WhatsApp rules apply: message templates and messaging windows. Facebook comment automation depends on Meta permissions.
-- AI replies are paid from the account balance.
+- AI replies are paid from the account balance. On Free that means a topped-up balance; see [plans and billing](plans-and-billing.md).
 
 ## Phone and voice AI: fits
 
@@ -34,7 +34,7 @@ Discover live. Starting recipes today: `list_phone_numbers`, `check_telephony_pr
 - Buying a number and enabling SMS are the person's steps in the admin.
 - A voice agent works only when it is enabled and a number routes to it.
 - Calls cost money and reach real people. Outbound calls need the called people's consent and the person's explicit go. Never start a call or a campaign without a yes in chat.
-- Quote prices only from `check_telephony_prices`.
+- Quote prices only from `check_telephony_prices`. Calls, SMS and numbers are paid from the balance on every plan.
 
 ## Do not promise
 

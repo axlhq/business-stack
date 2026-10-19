@@ -26,6 +26,7 @@ Discover live. Today the path is `list_sites`, then `create_landing_site` or `cr
 - Check existing sites first. The recipe asks you to confirm with the person before creating another site.
 - Page HTML writes need the guide token (`section="guide"`, then `guideAck`). Use the guide's native elements for forms, quizzes, checkout and booking widgets. A handwritten form renders fine and saves nothing.
 - Site pages go live unless the person asked for a draft. Respect their choice.
+- On Free, publishing needs a confirmed email, a custom domain needs a phone verified by SMS, the AXL badge stays, and forms may not ask for passwords or card numbers. See [plans and billing](plans-and-billing.md).
 - Wire what happens after a submission with a page scenario. See [automations](automations.md).
 - Standalone forms and quizzes have their own recipes. Read `get_quiz_item_schema` before adding fields.
 - Domains: the domain recipe offers three routes (move DNS to AXL, add records at the current registrar, buy a new domain). Buying happens through a checkout link the person opens. Changes at their registrar are theirs to make.

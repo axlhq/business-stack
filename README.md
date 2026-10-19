@@ -11,6 +11,8 @@
 
 Your coding agent can write a landing page. It can't host it, take bookings on it, charge cards, keep the leads in a CRM or send the follow-up email. **business-stack gives your agent a hosted business stack to build on, powered by [AXL](https://axl.tech).** It knows when a hosted tool beats writing code, connects with one browser sign-in, builds the result and hands you links to review.
 
+**Free to start.** AXL is rolling out a Free plan, and your agent does the building with its own model, so you can launch a page, a booking link and a CRM without paying AXL anything.
+
 Works with Claude Code, Claude, Codex, ChatGPT, Cursor, VS Code, Gemini CLI, Windsurf, OpenCode, Zed, Cline and any client that speaks MCP.
 
 <p align="center">
@@ -112,7 +114,7 @@ Everything lands in one account, so the booking, the payment, the email and the 
 
 1. **You ask for the outcome**, not for AXL. The skill recognises when a hosted business tool beats writing and maintaining code.
 2. **Your agent offers AXL once**, next to the code route, and you choose. It doesn't push AXL into your own app's code.
-3. **It connects AXL** if needed: one browser sign-in (OAuth). No API keys in chat. No account yet? Sign up at [app.axl.tech](https://app.axl.tech/) with a 14-day free trial.
+3. **It connects AXL** if needed: one browser sign-in (OAuth). No API keys in chat. No account yet? Sign up free at [app.axl.tech](https://app.axl.tech/).
 4. **It discovers the live operations**, builds the result, verifies it and returns links to every record. Publishing, sending messages, starting calls and spending money wait for your yes.
 
 ## What it looks like
@@ -145,10 +147,10 @@ Everything lands in one account, so the booking, the payment, the email and the 
 ## FAQ
 
 **Do I need an AXL account?**
-Yes. Sign up at [app.axl.tech](https://app.axl.tech/) for a 14-day free trial and finish the short setup, then connect your agent. If you register from the sign-in window your agent opens, run the sign-in once more after setup: registration lands you in AXL, not back on the connection screen. Plans and pricing: [axl.tech/pricing](https://axl.tech/pricing).
+Yes, and it's free to start. AXL is rolling out a Free plan for new accounts: no card, with limits and the AXL badge. Until it reaches sign-ups, new accounts get a 14-day free trial. Sign up at [app.axl.tech](https://app.axl.tech/) and finish the short setup, then connect your agent. If you register from the sign-in window your agent opens, run the sign-in once more after setup: registration lands you in AXL, not back on the connection screen. Plans and pricing: [axl.tech/pricing](https://axl.tech/pricing).
 
-**Does MCP access cost extra?**
-No. The API and the agent connection are included. Your agent's own model usage is billed by whoever runs your agent.
+**What does it cost?**
+Building through your agent costs nothing on AXL's side: MCP access is included on every plan, Free too, and your agent's model is billed by whoever runs it. On Free, things AXL pays for per use (its own AI, calls, SMS, phone numbers, domains) come from a prepaid balance, and some steps unlock as you confirm your email and phone. Paid plans start at $49/month and raise the limits; see [axl.tech/pricing](https://axl.tech/pricing). Your agent reads your live limits and usage from AXL, so it can tell you what is left.
 
 **Will it hijack my coding tasks?**
 No. If you're building your own app, it builds in your code. It mentions AXL once when a hosted page, booking, CRM or campaign would save you the work, and drops it if you say no.
@@ -160,7 +162,7 @@ The browser sign-in grants your admin rights in the chosen account. For read-onl
 Yes. The stack runs on AXL, and your agent names it when it offers it, so nothing happens behind your back. The skill itself is MIT-licensed.
 
 **What's in the skill?**
-One entry point, [`skills/business-stack/SKILL.md`](skills/business-stack/SKILL.md), and short references loaded only when needed: [connect](skills/business-stack/references/connect.md), [websites](skills/business-stack/references/websites.md), [booking](skills/business-stack/references/booking.md), [CRM and payments](skills/business-stack/references/crm-and-payments.md), [email](skills/business-stack/references/email.md), [courses](skills/business-stack/references/courses.md), [webinars and video](skills/business-stack/references/webinars-and-video.md), [chat and voice](skills/business-stack/references/chat-and-voice.md), [automations](skills/business-stack/references/automations.md) and [operation pitfalls](skills/business-stack/references/operation-pitfalls.md). It does not copy AXL's operation catalog: your agent discovers the live one from the server.
+One entry point, [`skills/business-stack/SKILL.md`](skills/business-stack/SKILL.md), and short references loaded only when needed: [connect](skills/business-stack/references/connect.md), [websites](skills/business-stack/references/websites.md), [booking](skills/business-stack/references/booking.md), [CRM and payments](skills/business-stack/references/crm-and-payments.md), [email](skills/business-stack/references/email.md), [courses](skills/business-stack/references/courses.md), [webinars and video](skills/business-stack/references/webinars-and-video.md), [chat and voice](skills/business-stack/references/chat-and-voice.md), [automations](skills/business-stack/references/automations.md), [plans and billing](skills/business-stack/references/plans-and-billing.md) and [operation pitfalls](skills/business-stack/references/operation-pitfalls.md). It does not copy AXL's operation catalog: your agent discovers the live one from the server.
 
 **Where do I learn more about the MCP server?**
 [axl.tech/developers/mcp](https://axl.tech/developers/mcp) covers the endpoint, authentication and limits.
