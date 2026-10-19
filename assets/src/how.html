@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How the AXL skill works</title>
+<link rel="stylesheet" href="./base.css">
+<style>
+  :root { --w: 880px; --h: 236px; }
+  .frame { padding: 26px 30px 28px; display: flex; flex-direction: column; gap: 18px; }
+  .head { display: flex; justify-content: space-between; align-items: baseline; }
+  h2 { font-size: 22px; }
+  .head p { margin: 0; color: var(--muted); font-size: 13px; }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative; }
+  .step { position: relative; padding: 0 18px 0 0; }
+  .num {
+    width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
+    font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 14px;
+    background: var(--surface); border: 1px solid var(--line); color: var(--text); position: relative; z-index: 1;
+  }
+  .step:last-child .num { background: var(--primary); border-color: var(--primary); color: #fff; }
+  .step:not(:last-child)::after {
+    content: ''; position: absolute; left: 38px; right: 8px; top: 15px; height: 1px;
+    background: linear-gradient(90deg, var(--line), #C9D5F6);
+  }
+  h3 { margin-top: 14px; font-size: 16px; letter-spacing: -0.02em; }
+  .step p { margin: 6px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--muted); }
+  .quote { color: var(--text); }
+</style>
+</head>
+<body>
+<main class="frame">
+  <div class="head"><h2>From request to live link</h2><p>Same flow in Claude Code, Codex, Cursor, Gemini CLI and other MCP clients</p></div>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Ask for the outcome</h3><p class="quote">"Set up booking for intro calls and send new leads a welcome email."</p></div>
+    <div class="step"><div class="num">2</div><h3>The skill spots a fit</h3><p>A hosted page, booking, CRM or campaign beats writing code. Your agent offers it.</p></div>
+    <div class="step"><div class="num">3</div><h3>Connect once</h3><p>Sign in to AXL in the browser (OAuth). No API keys pasted into chat.</p></div>
+    <div class="step"><div class="num">4</div><h3>Review and launch</h3><p>You get links to everything it built. Publishing and sending stay separate steps.</p></div>
+  </div>
+</main>
+</body>
+</html>

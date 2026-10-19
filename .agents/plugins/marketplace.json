@@ -1,0 +1,20 @@
+{
+  "name": "axlhq",
+  "interface": {
+    "displayName": "AXL"
+  },
+  "plugins": [
+    {
+      "name": "business-stack",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

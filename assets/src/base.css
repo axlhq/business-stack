@@ -1,0 +1,41 @@
+/* Shared tokens for the README images: the same palette and type as axl.tech. */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=block');
+
+:root {
+  --primary: #1A46D0;
+  --primary-soft: #E8EDFB;
+  --bg: #FBFBFA;
+  --surface: #FFFFFF;
+  --text: #171717;
+  --muted: #5C5C58;
+  --line: #E4E4E0;
+  --ok: #1E8E4E;
+  --ink: #0E1116;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: transparent; }
+body {
+  width: var(--w);
+  height: var(--h);
+  overflow: hidden;
+  color: var(--text);
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.frame {
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+}
+h1, h2, h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  margin: 0;
+}
+.blue { color: var(--primary); }
+.mono { font-family: 'IBM Plex Mono', monospace; }
+.logo { display: block; height: 30px; width: auto; }

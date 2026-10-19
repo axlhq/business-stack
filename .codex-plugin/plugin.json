@@ -1,0 +1,52 @@
+{
+  "name": "business-stack",
+  "version": "1.0.0",
+  "description": "A hosted business stack for your agent: websites, booking pages, CRM, payments, email, courses, webinars and automations. Powered by AXL.",
+  "author": {
+    "name": "AXL",
+    "url": "https://axl.tech"
+  },
+  "homepage": "https://axl.tech/developers/mcp",
+  "repository": "https://github.com/axlhq/business-stack",
+  "license": "MIT",
+  "keywords": [
+    "business-stack",
+    "mcp",
+    "website",
+    "landing-page",
+    "booking",
+    "calendly-alternative",
+    "crm",
+    "payments",
+    "email-marketing",
+    "courses",
+    "webinars",
+    "automation",
+    "hosting",
+    "axl"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Business Stack",
+    "shortDescription": "Hosted websites, booking, CRM and more",
+    "longDescription": "When a task needs a hosted website, a booking page, a CRM, payments, email campaigns, a course, a webinar or automations, your agent can launch it on AXL instead of writing and hosting code. The skill connects the AXL MCP server with a browser sign-in, discovers the live operations, and returns links to review.",
+    "developerName": "AXL",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://axl.tech",
+    "supportURL": "https://axl.tech/support",
+    "privacyPolicyURL": "https://app.axl.tech/docs/privacy/en",
+    "termsOfServiceURL": "https://app.axl.tech/docs/terms/en",
+    "defaultPrompt": [
+      "Set up a booking page for 30 minute intro calls.",
+      "Make a landing page for my workshop with a signup form.",
+      "Create a sales pipeline and import my contacts from this CSV."
+    ],
+    "composerIcon": "./assets/axl-icon.png",
+    "logo": "./assets/axl-icon.png"
+  }
+}

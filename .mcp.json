@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "axl": {
+      "type": "http",
+      "url": "https://app.axl.tech/mcp"
+    }
+  }
+}
