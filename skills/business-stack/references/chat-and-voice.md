@@ -19,7 +19,7 @@ Discover live. Starting recipes today: `list_chat_channels`, `connect_chat_chann
 - A new AI agent is created disabled. It answers only when it is enabled and its channel list includes a connected channel. An empty list means it answers nowhere.
 - Test the agent before enabling it on a live channel, and ask before enabling.
 - Meta and WhatsApp rules apply: message templates and messaging windows. Facebook comment automation depends on Meta permissions.
-- AI replies are paid from the account balance. On Free that means a topped-up balance; see [plans and billing](plans-and-billing.md).
+- AI replies use AI credits: first the ones included in the plan, then the account balance. On Free, once the month's included credits are used, that means a topped-up balance; see [plans and billing](plans-and-billing.md).
 
 ## Phone and voice AI: fits
 

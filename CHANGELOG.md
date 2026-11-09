@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 - 2026-11-08
+
+- Free plan now includes a monthly package of AI credits for AXL's built-in AI; AI is paid from the prepaid balance only after that package is used (README FAQ, plans and billing, chat and voice).
+
 ## 1.4.0 - 2026-10-19
 
 - Free plan described as the plan new accounts start on, without the trial caveat.
